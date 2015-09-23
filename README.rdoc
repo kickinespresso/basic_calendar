@@ -1,3 +1,17 @@
 = BasicCalendar
 
+
+
+Add these files to `active_admin.scss`
+
+    @import "admin/basic_cal";
+
+Add these files to `active_admin.js.coffee`
+
+    #= require admin/basic_cal
+
+
+
+
+
 This project rocks and uses MIT-LICENSE.

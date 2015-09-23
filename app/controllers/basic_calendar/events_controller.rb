@@ -6,7 +6,9 @@ module BasicCalendar
 
     # GET /events
     def index
-      @events = Event.all
+
+      @events = Event.all.order("created_at DESC").page params[:page]
+
     end
 
     # GET /events/1
