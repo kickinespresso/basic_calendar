@@ -1,6 +1,9 @@
 = BasicCalendar
 
+install migrations
 
+    rake basic_calendar:install:migrations
+    rake db:migrate
 
 Add these files to `active_admin.scss`
 
@@ -11,7 +14,9 @@ Add these files to `active_admin.js.coffee`
     #= require admin/basic_cal
 
 
+Mount `basic_calendar` events to `routes.rb`
 
+    mount BasicCalendar::Engine => '/events'
 
 
 This project rocks and uses MIT-LICENSE.
