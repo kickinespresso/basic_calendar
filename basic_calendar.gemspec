@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'ckeditor','~> 4.1.3'
   s.add_dependency "kaminari", ">= 0.15"
   s.add_dependency  'recurring_select', '~> 1.3.1'
-  s.add_dependency  "simple_calendar", "~> 1.1.0"
+  s.add_dependency  "simple_calendar", "~> 2.0.3"
 
   #IceCube
   #FullCalendar
